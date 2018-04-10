@@ -8,9 +8,6 @@ import {fetchMovie} from "../actions/movieActions";
 //support routing by creating a new component
 
 class Movie extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     componentDidMount() {
         const {dispatch} = this.props;

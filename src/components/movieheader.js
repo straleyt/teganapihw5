@@ -5,12 +5,7 @@ import {connect} from "react-redux";
 import { withRouter } from "react-router-dom";
 import {logoutUser} from "../actions/authActions";
 
-//add linkcontainer to invoke routes
-
 class MovieHeader extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     logout(){
         this.props.dispatch(logoutUser());
